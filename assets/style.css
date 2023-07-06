@@ -53,3 +53,17 @@ body {
 .header div ul li a:hover {
     color: white;
 }
+
+.AboutMe h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(81, 69, 3);
+    font-size:32px;
+}
+
+.AboutMe {
+    color: blue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    list-style-type: circle;
+}
