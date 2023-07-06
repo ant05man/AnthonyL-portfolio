@@ -10,14 +10,16 @@ body {
 
 .header {
     padding: 20px;
+    justify-content: flex-start;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: black;
     color: blue;
+    height: 120px;
 }
 
 .header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 28px;
 }
 
 
