@@ -17,6 +17,11 @@ body {
     height: 120px;
 }
 
+#AboutMeTitle:hover {
+    color:white;
+
+}
+
 .header h1 {
     display: inline-block;
     font-size: 28px;
@@ -80,6 +85,8 @@ aside {
 
 .Work {
     width: 85%;
+    position: relative;
+    top: 0px;
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -122,6 +129,12 @@ aside {
     height: 100%;
 }
 
+#box2 img {
+    object-fit: fill;
+    width: 350px;
+    height: 100px;
+}
+
 .horizontal_line {
     background-color: navy;
     width: 15%;
@@ -132,4 +145,51 @@ aside {
 #box1 img:hover {
     color: white;
       box-shadow: 0 5px 15px crimson;
+}
+
+#box2 img:hover {
+    color: white;
+      box-shadow: 0 5px 15px crimson;
+}
+
+#WorkTitle:hover {
+    color:white;
+
+}
+
+#ContactTitle:hover {
+    color: white;
+}
+
+#box3 img {
+        object-fit: fill;
+        width: 350px;
+        height: 100px;
+    }
+
+#box3 img:hover {
+    color: white;
+    box-shadow: 0 5px 15px crimson;
+}
+
+#ContactInfo {
+    color: purple;
+    font-style: italic;
+}
+
+#ContactInfo a:visited {
+    color: purple;
+}
+
+
+@media screen and (max-width: 992px) {
+    .flex-container {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .flex-container {
+        width: 100%;
+    }
 }
