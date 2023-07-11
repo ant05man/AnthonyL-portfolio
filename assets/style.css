@@ -185,7 +185,7 @@ aside {
 #ContactInfo a:visited {
     color: purple;
 }
-
+/*
 .bottom-left1 {
     position: absolute;
     bottom: 170px;
@@ -216,7 +216,21 @@ aside {
     color: white;
 
 }
+*/
 
+.imageContainer {
+    position: relative;
+    text-align: center;
+    color: red;
+}
+
+.bottom-center {
+    position: absolute;
+    font-size: 18px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 @media screen and (max-width: 992px) {
     .flex-container {
         width: 75%;
