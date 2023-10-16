@@ -192,6 +192,21 @@ box-shadow: 0 5px 15px blue;
 opacity: 0.5;
 }
 
+#box5 img {
+    object-fit: fill;
+    width: 350px;
+    height: 100px;
+}
+
+#box5 {
+    color: blue;
+}
+#box5 img:hover {
+color: white;
+box-shadow: 0 5px 15px blue;
+opacity: 0.5;
+}
+
 #ContactInfo {
     color: purple;
     font-style: italic;
