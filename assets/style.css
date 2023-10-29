@@ -109,8 +109,8 @@ aside {
 
 #box1 {
     display: flex;
-    width: 100%;
-    height: 400px;
+    width: 45%;
+    height: 100px;
 }
 
 #box2 {
@@ -121,14 +121,14 @@ aside {
 
 #box3 {
     display: flex;
-    width: 49%;
+    width: 45%;
     height: 100px;
 }
 
 #box1 img {
     object-fit: fill;
-    width: 100%;
-    height: 100%;
+    width: 350px;
+    height: 100px;
 }
 
 #box2 img {
@@ -185,6 +185,9 @@ aside {
 
 #box4 {
     color: blue;
+    display: flex;
+    width: 45%;
+    height: 100px;
 }
 #box4 img:hover {
 color: white;
