@@ -112,6 +112,7 @@ aside {
     display: flex;
     width: 45%;
     height: 100px;
+    color: red;
 }
 
 #box2 {
@@ -125,6 +126,7 @@ aside {
     display: flex;
     width: 45%;
     height: 100px;
+    color: red;
 }
 
 #box1 img {
@@ -296,7 +298,6 @@ opacity: 0.5;
 .imageContainer {
     position: relative;
     text-align: center;
-    color: red;
 }
 
 .bottom-center {
