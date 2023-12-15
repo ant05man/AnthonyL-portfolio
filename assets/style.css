@@ -118,6 +118,7 @@ aside {
     display: flex;
     width: 45%;
     height: 100px;
+    color: purple;
 }
 
 #box3 {
