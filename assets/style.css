@@ -232,6 +232,25 @@ color: white;
 box-shadow: 0 5px 15px purple;
 opacity: 0.5;
 }
+
+#box6 img {
+    object-fit: fill;
+    width: 350px;
+    height: 100px;
+}
+
+#box6 {
+    color: blue;
+    display: flex;
+    width: 45%;
+    height: 100px;
+    margin-left: 30px;
+}
+#box6 img:hover {
+color: white;
+box-shadow: 0 5px 15px purple;
+opacity: 0.5;
+}
 #ContactInfo {
     color: purple;
     font-style: italic;
